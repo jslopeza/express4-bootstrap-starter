@@ -37,5 +37,4 @@ public/js/bootstrap.js
 resources/
 
 # Hide Sensitive Keys
-app/config/development.config.js
-app/config/test.config.js
+app/config/*.config.js
