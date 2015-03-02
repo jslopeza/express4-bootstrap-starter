@@ -26,14 +26,6 @@ module.exports = function(ROOT_PATH) {
             callbackURL: '/auth/facebook/callback',
             passReqToCallback: true
         },
-        googleAuth: true,
-        google: {
-            clientID: process.env.GOOGLE_ID || '656580170718-piuedmscrvqmnalefdhpftqf9uthkaii.apps.googleusercontent.com',
-            clientSecret: process.env.GOOGLE_SECRET || 'Ca4qWzgJ2yV0m9Uh7Nd4aS',
-            returnURL: '/auth/google/callback',
-            realm: '/auth/google',
-
-        },
         mailgun: {
             user: process.env.MAILGUN_USER || 'postmaster@sandbox49936.mailgun.org',
             password: process.env.MAILGUN_PASSWORD || '1fq8qzwl14w8'

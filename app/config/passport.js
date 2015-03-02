@@ -2,7 +2,6 @@ var mongoose = require('mongoose');
 var LocalStrategy = require('passport-local').Strategy;
 var TwitterStrategy = require('passport-twitter').Strategy;
 var FacebookStrategy = require('passport-facebook').Strategy;
-var GoogleStrategy = require('passport-google').Strategy;
 var User = mongoose.model('User');
 
 module.exports = function(app, passport) {
@@ -123,20 +122,6 @@ module.exports = function(app, passport) {
                 });
             });
         }
-    }));
-
-    /**
-     * Sign in with Google.
-     */
-
-    passport.use(new GoogleStrategy(app.config.google, function(req, accessToken, refreshToken, profile, done) {
-        console.group();
-        console.log(req);
-        console.log(accessToken);
-        console.log(refreshToken);
-        console.dir(profile);
-        console.log(done);
-        console.endGroup();
     }));
 
     /**
