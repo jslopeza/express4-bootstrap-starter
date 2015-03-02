@@ -126,6 +126,20 @@ module.exports = function(app, passport) {
     }));
 
     /**
+     * Sign in with Google.
+     */
+
+    passport.use(new GoogleStrategy(app.config.google, function(req, accessToken, refreshToken, profile, done) {
+        console.group();
+        console.log(req);
+        console.log(accessToken);
+        console.log(refreshToken);
+        console.dir(profile);
+        console.log(done);
+        console.endGroup();
+    }));
+
+    /**
      * Sign in with Facebook.
      */
 
