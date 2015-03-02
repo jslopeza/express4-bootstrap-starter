@@ -35,6 +35,3 @@ public/js/plugins.js
 public/js/apps.js
 public/js/bootstrap.js
 resources/
-
-# Hide Sensitive Keys
-app/config/*.config.js

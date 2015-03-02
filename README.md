@@ -7,7 +7,7 @@ ExpressJS 4 Starter
 
 Lightweight Bootstrap NodeJS Apps Build Using ExpressJS 4, MongoDB/Mongoose, Authentication with Passport.js, Jade and GruntJS as Task Automation
 
-[![Build Status](https://travis-ci.org/aredo/express4-bootstrap-starter.svg?branch=master)](https://travis-ci.org/aredo/express4-bootstrap-starter)
+[![Build Status](https://travis-ci.org/binoy14/express4-bootstrap-starter.svg?branch=master)](https://travis-ci.org/aredo/express4-bootstrap-starter)
 [![Dependencies Status](https://david-dm.org/aredo/express4-bootstrap-starter.png)](https://david-dm.org/aredo/express4-bootstrap-starter)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
